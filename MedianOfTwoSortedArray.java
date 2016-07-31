@@ -4,6 +4,14 @@ Problem Statement
 
 Binary Search Solution, Time Complexity O(log(min(m+n)))
 
+Assumption: 
+  half of the two arrays, A, B
+  find i within A, j = (m + n + 1)/2
+  A[i - 1] < B[j]
+  B[j - 1] < A[i]
+  
+  i is our target
+
 public class Solution {
     
     private double help(int[] A, int m, int[] B, int n){
