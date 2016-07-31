@@ -66,3 +66,6 @@ public class Solution {
     }
     
 }
+
+Reference
+https://discuss.leetcode.com/topic/4996/share-my-o-log-min-m-n-solution-with-explanation
