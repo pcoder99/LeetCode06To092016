@@ -35,22 +35,22 @@ If you draw a picture, it would be much easy to understand the idea
 2 -> 2  (two_step_before)
 3 -> 3
 
-public int func(int n){
-  if(n == 0 || n == 1){
-    return 1;
-  }
-  if(n == 2){
-    return 2;
-  }
-  
-  int one_step_before = 1;
-  int two_steps_before = 2;
-  int all_ways = 0;
-  for(int i = 3; i < n + 1; i++){
-    all_ways = one_step_before + two_steps_before;
-    one_step_before = two_steps_before;
-    two_steps_before = all_ways;
-  }
-  return all_ways;
-}
+public int climbStairs(int n) {
+        if(n == 0 || n == 1)
+            return 1;
+        if(n == 2)
+            return 2;
+        
+        int one_step_before = 2;
+        int two_step_before = 1;
+        int all_distic_way = 0;
+        
+        for(int i = 3; i < n + 1; i++){
+            all_distic_way = one_step_before + two_step_before;
+            two_step_before = one_step_before;
+            one_step_before = all_distic_way;
+        }
+        
+        return all_distic_way;
+    }
 }
