@@ -16,7 +16,7 @@ Implementation:
     return res;
   }
 
-  public int height(TreeNode root, List<List<Integer>> res){
+  public int helper(TreeNode root, List<List<Integer>> res){
     if(root == null) return -1;
     int level = 1 + Math.max(height(root.left, res), height(root.right, res));
     if(res.size() < (level + 1)) res.add(new ArrayList<>());
