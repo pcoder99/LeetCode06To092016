@@ -1,5 +1,6 @@
 PS:
  Given an input string, reverse the string word by word
+ If there are multiple spaces betwen words, reduce them to one space
 
 Thinking:
   reverse the whole string, 
