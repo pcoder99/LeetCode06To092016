@@ -1,5 +1,8 @@
 Problem Statement:
   find the longest substring wihtout repeated characters
+  
+Thinking
+  j is the begining index of the longest substring
 
   // whenever finding a repeated character, moving the left pointer right to the same character last found
   public int longestsubstring(String s){
