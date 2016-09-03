@@ -6,6 +6,7 @@ Thinking:
   reverse the whole string, 
   then, reverse word by word
   this kind of idea is out of date, find a more efficient way
+  Also, get familiar with those built-in functionalities
 
 public String reverseWords(String s) {
         String[] parts = s.trim().split("\\s+");
