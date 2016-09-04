@@ -16,3 +16,7 @@ public String reverseWords(String s) {
         return out + parts[0];
 
     }
+    
+public String reverseWords(String s){
+   return new StringBuilder(s).reverse().toString();
+}
