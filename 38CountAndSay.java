@@ -1,5 +1,5 @@
 PS:
-  It is important to understand the 
+  It is important to understand the problem, what is count and what is say.
   
   public String countAndSay(int n) {
         StringBuilder cur = new StringBuilder("1");
