@@ -4,6 +4,7 @@ PS:
 Thought:
   iterating from front/end to middle, O(n) solution
   how to compare smallcase/uppercase, better leverage those Java Util method
+  for, while loop is different control logic
   
 
 Implementation:
