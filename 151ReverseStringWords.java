@@ -7,6 +7,7 @@ Thinking:
   then, reverse word by word
   this kind of idea is out of date, find a more efficient way
   Also, get familiar with those built-in functionalities
+  Actualy, this idea can be applied to ReverseWordsInAStringII
 
 public String reverseWords(String s) {
         String[] parts = s.trim().split("\\s+");
@@ -16,7 +17,9 @@ public String reverseWords(String s) {
         return out + parts[0];
 
     }
-    
+
+
+// following implementation is not practical, it could not resolve white spaces
 public String reverseWords(String s){
    return new StringBuilder(s).reverse().toString();
 }
