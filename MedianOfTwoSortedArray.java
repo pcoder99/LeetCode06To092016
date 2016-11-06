@@ -4,6 +4,8 @@ Problem Statement
 
 Binary Search Solution, Time Complexity O(log(min(m+n)))
 
+Thought:
+  How to handle the corner case is the key.
 Assumption: 
   half of the two arrays, A, B
   find i within A, j = (m + n + 1)/2
